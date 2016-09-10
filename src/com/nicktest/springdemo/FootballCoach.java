@@ -1,10 +1,9 @@
 package com.nicktest.springdemo;
 
-public class TrackCoach implements Coach {
-
+public class FootballCoach implements Coach {
 	@Override
 	public String getDailyWorkout() {
-		return "Run a hard 5K";
+		return "Do 50 bench presses";
 	}
 
 	@Override
@@ -12,5 +11,4 @@ public class TrackCoach implements Coach {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
 }
